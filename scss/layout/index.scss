@@ -1,0 +1,43 @@
+@forward "../helpers/variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+main {
+  padding: 40px 0;
+  min-height: calc(100vh - 151px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 0 calc(4vw + 10px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

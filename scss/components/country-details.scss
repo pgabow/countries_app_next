@@ -1,0 +1,112 @@
+.rest-countries__details {
+	.loader_list {
+		margin: 0 auto;
+		padding-top: 200px;
+		text-align: center;
+		justify-content: center;
+	}
+
+  .details-back {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 15px 20px;
+    display: flex;
+    max-width: 130px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+
+    svg {
+      margin-right: 10px;
+    }
+  }
+
+  .details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+
+    .details-image {
+      align-self: center;
+      
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 800px;
+        object-fit: contain;
+        box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
+      }
+    }
+
+    .details-info {
+      align-self: center;
+
+      h1 {
+        font-size: 40px;
+        font-weight: 800;
+      }
+
+      .info-wrapper {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+        .context {
+          font-size: 18px;
+          font-weight: 800;
+
+          span {
+            font-weight: 600;
+            font-size: 17px;
+            margin-left: 7px;
+          }
+        }
+      }
+
+      .border-wrapper {
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 800;
+
+        .border-list {
+          margin-top: 5px;
+          display: flex;
+          align-items: center;
+          grid-gap: 8px;
+          flex-wrap: wrap;
+
+          .border-item {
+            font-weight: 600;
+            padding: 8px 20px;
+            font-size: 16px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .details-back {
+      font-size: 18px;
+      max-width: 100px;
+
+      svg {
+        margin-right: 18px;
+      }
+    }
+
+    .details-grid {
+      grid-template-columns: 1fr;
+
+      .details-info {
+        .info-wrapper {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
+}
