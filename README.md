@@ -2,7 +2,7 @@
 
 ## Next 13, Redux-TK, two rest api, custom hooks, scss
 
-[Example ][https://countries-app-next-beta.vercel.app/]
+Example https://countries-app-next-beta.vercel.app/
 
 ![Screenshot_22](https://user-images.githubusercontent.com/43748738/229350098-b03f4ef7-03e6-400d-ab3c-d5849dc63c1e.jpg)
 ![Screenshot_23](https://user-images.githubusercontent.com/43748738/229350100-e2d7c067-185b-4be1-b8eb-799b0ca39107.jpg)
